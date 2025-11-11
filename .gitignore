@@ -28,3 +28,6 @@ thumbs.db
 
 # VSCode Workspace file
 AIFileManagement.code-workspace
+
+# ChromaDB persistence directory
+chroma_db/
