@@ -31,3 +31,4 @@ AIFileManagement.code-workspace
 
 # ChromaDB persistence directory
 chroma_db/
+index_metadata.db

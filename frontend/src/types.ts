@@ -7,3 +7,16 @@ export interface FileItem {
   size: number | null;
   last_modified: number;
 }
+
+export interface SearchResult {
+  file_path: string;
+  content_snippet: string;
+  distance: number;
+  chunk_number: number; // Add this line
+}
+
+export type FolderStatus = 'indexed' | 'not_indexed' | 'outdated' | 'indexing' | 'failed';
+
+export type FolderStatusMap = {
+  [path: string]: FolderStatus;
+};
